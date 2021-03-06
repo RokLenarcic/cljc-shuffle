@@ -1,0 +1,12 @@
+{:deps {:aliases [:dev]}
+ :nrepl {:port 9000}
+ :dev-http {8000 "dev"}
+ :builds {:main {:target :browser
+                 :output-dir "dev/js"
+                 :asset-path "/"
+                 :modules {:main {}}}
+          :tests   {:target           :karma
+                    :js-options       {:js-provider :shadow}
+                    :compiler-options {:static-fns      false}
+                    :output-to        "target/tests.js"
+                    :ns-regexp        "-test$"}}}

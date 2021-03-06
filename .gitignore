@@ -12,3 +12,8 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+yarn.lock
+dev/
+!dev/index.html
+node_modules/
+.shadow-cljs/
