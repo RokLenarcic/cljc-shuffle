@@ -1,5 +1,7 @@
 # CLJC Shuffle
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.roklenarcic/cljc-shuffle.svg)](https://clojars.org/org.clojars.roklenarcic/cljc-shuffle)
+
 **Shuffle items with the following features:**
 - high strength random (cryptographic quality), should be able to produce all 52! shuffles of a standard card deck
 - serializable, repeatable shuffles (you can apply same shuffle multiple times)
