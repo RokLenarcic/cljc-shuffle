@@ -34,4 +34,4 @@
       (< (count coll) (count radix)) (throw (ex-info
                                               "Shuffle idx higher than total number of shuffles"
                                               {:idx idx :coll coll}))
-      :else (util/permute (util/to-factoradic idx) coll))))
+      :else (util/permute radix coll))))
